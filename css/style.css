@@ -1,0 +1,55 @@
+html,
+body {
+    background: url('../img/bg.jpg') center center no-repeat;
+    height: 100%;
+    font-family: 'Amatic SC', cursive;
+    background-size: cover;
+}
+
+#logo img {
+    margin: 0 auto !important;
+    padding-top: 10%;
+}
+
+#intro p {
+    color: white;
+    font-size: 1.8em;
+}
+
+#counter .countdown {
+    color: white;
+    font-size: 2.7em;
+    margin: -18px 0 0;
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons .fa {
+    color: white;
+    margin: 1rem 2rem;
+    position: relative;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#icons .twitter:hover {
+    color: #4c9ad5;
+    bottom: 1rem;
+}
+
+#icons .facebook:hover {
+    color: #3b6999;
+    bottom: 1rem;
+}
+
+#icons .snapchat:hover {
+    color: yellow;
+    bottom: 1rem;
+}
+
+#icons .instagram:hover {
+    color: #ef4c9a;
+    bottom: 1rem;
+}
